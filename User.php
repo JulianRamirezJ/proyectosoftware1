@@ -13,8 +13,8 @@
             $this->tel = $tel;
         }
 
-        public function saveUser($conexion){
-            $query = "INSERT INTO user (name,email,tel) VALUES ('$this->name, $this->email, $this->tel')";
+        public function saveUser($conexion,$name,$tel,$email){
+            $query = "INSERT INTO user (nameuser, email,tel) VALUES ('$this->name, $this->email, $this->tel')";
             $result = $conexion->query($query);
             if($result){ return true; }
             else{ return false; }
