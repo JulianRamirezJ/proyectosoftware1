@@ -1,6 +1,10 @@
+/*
+    File to establish a conection with the DB
+*/
 <?php
 
-    class Crud{
+    class Conexion{
+
         private $conexion;
 
         public function __construct($conexion){
