@@ -5,7 +5,7 @@
         <title>Register</title>
 
         <!--Conection with css styles-->
-        <link type="text/css" href="../Admin/css/style_login.css" rel="stylesheet" media="all" >
+        <link type="text/css" href="css/style.css" rel="stylesheet" media="all" >
 
     </header>
     <body>
@@ -15,9 +15,18 @@
             <div class="form">
                 <h3>Enter your data</h3>
                 <form action="" method="POST">
-                    <input type="text" name="name" required class="field" autocomplete="OFF"/> 
-                    <input type="text" name="email" required class="field" autocomplete="OFF"/> 
-                    <input type="text" name="tel" required class="field" autocomplete="OFF"/> 
+                    <div class="form-g">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" required class="field" autocomplete="OFF"/>
+                    </div>
+                    <div class="form-g">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" required class="field" autocomplete="OFF"/>
+                    </div>
+                    <div class="form-g">
+                        <label for="name">Tel</label>
+                        <input type="text" name="tel" required class="field" autocomplete="OFF"/>
+                    </div> 
                     <button type="submit" class="submit-button"><h3>Save</h3></button>
                 </form>
             </div>

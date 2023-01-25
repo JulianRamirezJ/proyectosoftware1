@@ -1,0 +1,29 @@
+.title-1{
+    font-size: 20px;
+    text-align: left;
+    background-color:navy;
+    color:white;
+    width: 50%;
+}
+
+.title-2{
+    font-size: 20px;
+    text-align: right;
+    background-color:blue;
+    color:white;
+    width: 50%;
+}
+
+.form{
+    background-color: rgb(158, 216, 248);
+    border-radius: 2%;
+    text-align: center;
+}
+
+.form-g{
+    border
+}
+
+.field{
+
+}
