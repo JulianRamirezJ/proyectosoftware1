@@ -4,26 +4,49 @@
     background-color:navy;
     color:white;
     width: 50%;
+    height: 80px;
+    float: left;
 }
 
 .title-2{
     font-size: 20px;
     text-align: right;
-    background-color:blue;
+    align-items: center;
+    background-color:rgb(0, 51, 181);
     color:white;
     width: 50%;
+    height: 80px;
+    float: right;
+}
+
+.title{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .form{
+    padding-bottom: 15px;
+    border-top: 5px;
     background-color: rgb(158, 216, 248);
     border-radius: 2%;
     text-align: center;
 }
 
 .form-g{
-    border
+    padding-top:5px;
+    padding-bottom: 5px;
+    color:rgb(0, 51, 181);
 }
 
-.field{
+.title-form{
+    color: navy;
 
+}
+
+.submit-button{
+    width: 100px;
+    height: 50px;
+    background-color: navy;
+    color:white;
+    border: solid 1px white;
 }

@@ -1,10 +1,9 @@
-<?
-    include_once 'Connection.php';
+<?php
 
     class UserActions{
 
         public function saveUser($connection,$name,$tel,$email){
-            $query = "INSERT INTO user (nameuser, email,tel) VALUES ('$name, $email, $tel')";
+            $query = "INSERT INTO user (nameuser, email, tel) VALUES ('$name', '$email', '$tel')";
             $result = $connection->query($query);
             if($result){ return true; }
             else{ return false; }

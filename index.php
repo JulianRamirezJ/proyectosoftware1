@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html>
-    <header>
+<html lang="en">
+    <header>        
         <meta charset="utf-8">
-        <title>Register</title>
-
+        <title>User Registration</title>
         <!--Conection with css styles-->
         <link type="text/css" href="css/style.css" rel="stylesheet" media="all" >
 
     </header>
     <body>
         <div>
-            <div class="title-1">Proyect 1</div>
-            <div class="title-2">Software Enginering Topics</div>
+            <div class="title-1"><h2 class="title">Proyect 1</h2></div>
+            <div class="title-2"><h4 class="title">Software Enginering Topics</h4></div>
             <div class="form">
-                <h3>Enter your data</h3>
-                <form action="" method="POST">
+                <h3 class="title-form">Enter your data</h3>
+                <form action="controller.php?action=save" method="POST">
                     <div class="form-g">
                         <label for="name">Name</label>
                         <input type="text" name="name" required class="field" autocomplete="OFF"/>

@@ -1,20 +1,14 @@
-/*
-    File to establish a conection with the DB
-*/
 <?php
-
     class Connection{
-
-        private $connection;
+        private $connec;
 
         public function __construct($server,$user,$password,$db){
-            $this->connection = new mysqli($server,$user,$password,$db);
+            $this->connec = new mysqli($server,$user,$password,$db);
         }
 
         public function connect(){
-            return $this->connection;
+            return $this->connec;
         }
 
     }
-
 ?>
