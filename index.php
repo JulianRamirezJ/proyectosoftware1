@@ -13,7 +13,7 @@
             <div class="title-2"><h4 class="title">Software Enginering Topics</h4></div>
             <div class="form">
                 <h3 class="title-form">Enter your data</h3>
-                <form action="controller.php?action=save" method="POST">
+                <form action="controller/controller.php?action=save" method="POST">
                     <div class="form-g">
                         <label for="name">Name</label>
                         <input type="text" name="name" required class="field" autocomplete="OFF"/>
